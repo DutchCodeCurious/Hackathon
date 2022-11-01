@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Opinions From</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html">AFC Ajax Amsterdam</a></h1>
+      <ul>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="news.html"> News</a></li>
+        <li><a href="legends.html">Legends</a></li>
+        <li><a href="Opinions.html">Opinions</a></li>
+      </ul>
+    </header>
+    <section class="form_text">
+      <h2>Think with us about how to strengthening the team!</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quaerat
+        ex laborum! Necessitatibus, voluptates laborum officia rem quo, ipsam
+        autem culpa eaque porro praesentium aut optio, vero maiores
+        reprehenderit amet.
+      </p>
+      <h3>Tell us!</h3>
+      <p>
+        With this form we want to help Ajax, the people who watch football every
+        day are people with knowledge.
+      </p>
+    </section>
+    <form name="contact" method="post" data-netlify="true">
+      <input type="hidden" name="form-name" value="contact" />
+      <p>
+        <label for="name"
+          >Name: <input type="text" name="name" placeholder="Klaas"
+        /></label>
+      </p>
+      <p>
+        <label for="email"
+          >Email:
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Klaas@example.com"
+          />
+        </label>
+      </p>
+      <p>
+        <label for="date"
+          >What is your birthday: <input type="date" name="date"
+        /></label>
+      </p>
+      <p>
+        <label for="age"
+          >How old where you, when you started
+          <strong>supporting</strong> Ajax:<input
+            type="number"
+            name="age"
+            placeholder="10"
+        /></label>
+      </p>
+      <p>
+        <label for="favorite_player"
+          >Who is your favorite player:
+          <input type="text" name="favorite_player" placeholder="Timber"
+        /></label>
+      </p>
+      <label for="transfers">Wich player is the best buy this season:</label>
+      <select name="transfers" id="transfers">
+        <option value="" disabled selected>Choose</option>
+        <option value="Brobbey">Brobbey</option>
+        <option value="Bergwijn">Bergwijn</option>
+        <option value="Wijndal">Wijndal</option>
+        <option value="Lucca">Lucca</option>
+        <option value="Bassey">Bassey</option>
+        <option value="Kaplan">Kaplan</option>
+        <option value="Sanchez">Sanchez</option>
+        <option value="Conceicao">Conceiçao</option>
+      </select>
+      <p><label for="place">Wich line should Ajax buy a new player</label></p>
+      <ul>
+        <li>
+          <label for="keeper"
+            ><input
+              type="radio"
+              name="place"
+              id="keeper"
+              value="keeper"
+            />Goalkeeper</label
+          >
+        </li>
+        <li>
+          <label for="defense"
+            ><input
+              type="radio"
+              name="place"
+              id="defense"
+              value="defense"
+            />Defense</label
+          >
+        </li>
+        <li>
+          <label for="midfield"
+            ><input
+              type="radio"
+              name="place"
+              id="midfield"
+              value="midfield"
+            />Midfield</label
+          >
+        </li>
+        <li>
+          <label for="attack"
+            ><input
+              type="radio"
+              name="place"
+              id="attack"
+              value="attack"
+            />Attack</label
+          >
+        </li>
+      </ul>
+      <p><input type="submit" /></p>
+    </form>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com/afcajax/" target="_blank"
+            ><img src="pics/instagram.png" alt="Instagram logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://nl-nl.facebook.com/afcajax/" target="_blank"
+            ><img src="pics/facebook.png" alt="Facebook logo"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/AFCAjax?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            ><img src="pics/twitter.png" alt="twitter"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
